@@ -21,10 +21,13 @@ export const loginStyle = StyleSheet.create({
         marginVertical: "10%"
     },
     cardButton: {
-        backgroundColor: "black"
+        backgroundColor: "black",
+        marginVertical: "10%"
     },
     textInput:{
-        backgroundColor: "white",
-        
+        backgroundColor: "white",       
+    },
+    errorMessage:{
+        color: "red"
     }
 })
